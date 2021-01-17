@@ -1,0 +1,24 @@
+{
+  "name": "owncast-bot",
+  "version": "1.0.0",
+  "description": "Example bot created using the oci.js npm package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Owncast",
+    "bot",
+    "node"
+  ],
+  "author": "Dane_Alex",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "license": "ISC"
+}
